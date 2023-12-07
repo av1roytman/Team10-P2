@@ -5,3 +5,8 @@ node_modules/**
 .DS_Store
 coverage/**
 __pycache__/**
+
+# amplify
+node_modules
+.amplify
+amplifyconfiguration*
