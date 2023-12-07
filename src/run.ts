@@ -18,6 +18,7 @@ export async function processUrls(urlFile: string) {
     // Now you have an array of URLs, and you can work with them as needed
     //console.log(urls);
     let l_r_metric_array: number[]; //[0] = License Score, [1] = Ramp Up Score, [2] = Correctness Score
+
     let bf_rm_metric_array: number[]; //[0] = Bus Factor Score, [1] = Responsive Maintainer Score
     var number = 0;
     var net_score = 0;
